@@ -1,0 +1,1347 @@
+<!DOCTYPE html>
+<html lang="ar" id="darky" class="dark" dir="rtl">
+<head>
+       <meta name="theme-color" content=" rgba(104, 23, 255, 0.643)">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>محترف</title>
+   <link href="/src/styles.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="style.css" rel="stylesheet">
+    
+</head>
+<body style="background-color: #ece6f1;" >
+  
+    <div class=""id="mypage">
+  <header class="absolute inset-x-0 top-0 z-50">
+    <nav class="flex items-center justify-between  w-full  text-white p-6 lg:px-8 navy" aria-label="Global" style="; position: fixed;box-shadow:0 2px 21px #45175d;">
+      <div class="flex lg:flex-1">
+        <a href="#" class="-m-1.5 p-1.5">
+          <span class="sr-only">Your Company</span>
+         
+        </a>
+      </div>
+       <div class="flex lg:hidden">
+        <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700" id="open">
+          <span class="sr-only">Open main menu</span>
+          <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+        </button>
+      </div>
+      <div class="hidden lg:flex lg:gap-x-12 ">
+        <a href="#" class="text-sm/6 font-semibold ">المنتجات</a>
+        <a href="#" class="text-sm/6 font-semibold ">أعمالنا</a>
+        <p class="text-sm/6 font-semibold ">الوضع المظلم</p>
+        <a href="#" class="text-sm/6 font-semibold ">فريق العمل</a>
+          <a href="#" class="text-sm/6 font-semibold ">تواصل معنا</a>
+            <a href="#" class="text-sm/6 font-semibold ">FAQ </a>
+      </div>
+      <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+        <a href="#" class="text-sm/6 font-semibold ">المدونة <span aria-hidden="true">&rarr;</span></a>
+      </div>
+    </nav>
+    <hr>
+    <!-- Mobile menu, show/hide based on menu open state. -->
+    <div class="lg:hidden" id='menu'role="dialog" aria-modal="true">
+      <!-- Background backdrop, show/hide based on slide-over state. -->
+      <div class="fixed inset-0 z-50"></div>
+      <div class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+        <div class="flex items-center justify-between">
+          <a href="#" class="-m-1.5 p-1.5">
+            <span class="sr-only">Your Company</span>
+            <img class="h-8 w-auto" src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600" alt="">
+          </a>
+          <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700"id="close">
+            <span class="sr-only" >Close menu</span>
+            <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+        <div class="mt-6 flow-root">
+          <div class="-my-6 divide-y divide-gray-500/10">
+            <div class="space-y-2 py-6">
+              <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Product</a>
+              <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Features</a>
+              <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Marketplace</a>
+              <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Company</a>
+            </div>
+            <div class="py-6">
+              <a href="#" class="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Log in</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="relative isolate px-6 pt-14 lg:px-8 ">
+    <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" aria-hidden="true">
+      <div class="relative left-[calc(50%-11rem)] aspect-1155/678 w-144.5 -translate-x-1/2 rotate-30 bg-linear-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-288.75" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+    </div>
+    <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+
+      <div class="text-center">
+        <h1 class="text-5xl font-semibold tracking-tight text-balance  sm:text-7xl headrex">شركة  تطوير</h1>
+        <p class="mt-8 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8">اكبر شركات البرمجة والتصميم في الوطن العربي</p>
+      
+      </div>
+    </div>
+
+    <div class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]" aria-hidden="true">
+      <div class="relative left-[calc(50%+3rem)] aspect-1155/678 w-144.5 -translate-x-1/2 bg-linear-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-288.75" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+    </div>
+  </div>
+  <div class=" py-24 sm:py-32" >
+  <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <dl class="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-3">
+      <div class="mx-auto flex max-w-xs flex-col gap-y-4">
+        <dt class="text-base/7 text-gray-600">عميل</dt>
+        <dd class="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">4440</dd>
+      </div>
+      <div class="mx-auto flex max-w-xs flex-col gap-y-4">
+        <dt class="text-base/7 text-gray-600">سنة خبرة</dt>
+        <dd class="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">32</dd>
+      </div>
+      <div class="mx-auto flex max-w-xs flex-col gap-y-4">
+        <dt class="text-base/7 text-gray-600">تقييم ايجابي</dt>
+        <dd class="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">1000</dd>
+      </div>
+    </dl>
+  </div>
+</div>
+  <h1 style="font-size: 50px; color:  #45175d;text-align: center;">خدماتنا</h1>
+
+    <div class="services " >
+
+<div class="s1 ser">
+  <h2>تطوير مواقع فرونتاند</h2>
+<script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+<dotlottie-player src="https://lottie.host/c61bcd88-e5fd-4f78-b5f7-028efda7a93c/nzG2FLIguL.lottie" background="transparent" speed="1" style="width: 300px; height: 300px" loop autoplay></dotlottie-player>
+<p></p>
+<button class="btnx">see our work</button>
+</div>
+<div class="s1 ser"> <h2>تطوير التطبيقات</h2>
+<script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+<dotlottie-player src="https://lottie.host/a8192dac-2f6d-4a2a-b97a-35a4c1672034/OAnnxxlaXs.lottie" background="transparent" speed="1" style="width: 300px; height: 300px" loop autoplay></dotlottie-player>
+<p></p>
+<button class="btnx">see our work</button></div>
+
+   <div class="s1 ser"> <h2>فوتوشوب</h2>
+    <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+<dotlottie-player src="https://lottie.host/2c6e2c6a-33e0-429b-90fa-d7b2c256d788/J81m9Jl2ha.lottie" background="transparent" speed="1" style="width: 300px; height: 300px" loop autoplay></dotlottie-player>
+
+<p></p>
+<button class="btnx">see our work</button></div>   
+    </div>
+
+</div>
+
+<div class="h-screen flex justify-center items-center  skilly dark:bg-gray-800">
+    <div class="max-w-xl mx-auto w-full">
+
+        <!-- To achieve the desired progress, you can update the 'stroke-dasharray' property. -->
+        <h4 class="text-3xl md:text-5xl dark:text-white font-bold ms-50 " style="color:  #45175d;">المهارات</h4>
+
+        <div class="mb-7">
+            <div class="flex justify-between py-1">
+                <span class="text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">تطوير المواقع</span>
+                <span class="text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">80%</span>
+            </div>
+            <svg class="rc-progress-line" viewBox="0 0 100 1" preserveAspectRatio="none">
+                <path class="rc-progress-line-trail" d="M 0.5,0.5
+         L 99.5,0.5" stroke-linecap="round" stroke="#D9D9D9" stroke-width="1" fill-opacity="0"></path>
+                <path class="rc-progress-line-path" d="M 0.5,0.5
+         L 99.5,0.5" stroke-linecap="round" stroke="#9272D4" stroke-width="1" fill-opacity="0"
+                    style="stroke-dasharray: 79.2px, 100px; stroke-dashoffset: 0px; transition: stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s linear 0s, 0.06s;">
+                </path>
+            </svg>
+        </div>
+
+
+        <div class="mb-7">
+            <div class="flex justify-between py-1">
+                <span class="text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">تطوير التطبيقات </span>
+                <span class="text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">95%</span>
+            </div>
+            <svg class="rc-progress-line" viewBox="0 0 100 1" preserveAspectRatio="none">
+                <path class="rc-progress-line-trail" d="M 0.5,0.5
+         L 99.5,0.5" stroke-linecap="round" stroke="#D9D9D9" stroke-width="1" fill-opacity="0"></path>
+                <path class="rc-progress-line-path" d="M 0.5,0.5
+         L 99.5,0.5" stroke-linecap="round" stroke="#9272D4" stroke-width="1" fill-opacity="0"
+                    style="stroke-dasharray: 94.05px, 100px; stroke-dashoffset: 0px; transition: stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s linear 0s, 0.06s;">
+                </path>
+            </svg>
+        </div>
+
+
+        <div class="mb-7 max-w-4xl">
+            <div class="flex justify-between py-1">
+                <span class="text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">Illustrator</span>
+                <span class="text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">65%</span>
+            </div>
+            <svg class="rc-progress-line" viewBox="0 0 100 1" preserveAspectRatio="none">
+                <path class="rc-progress-line-trail" d="M 0.5,0.5
+         L 99.5,0.5" stroke-linecap="round" stroke="#D9D9D9" stroke-width="1" fill-opacity="0"></path>
+                <path class="rc-progress-line-path" d="M 0.5,0.5
+         L 99.5,0.5" stroke-linecap="round" stroke="#9272D4" stroke-width="1" fill-opacity="0"
+                    style="stroke-dasharray: 64.35px, 100px; stroke-dashoffset: 0px; transition: stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s linear 0s, 0.06s;">
+                </path>
+            </svg>
+        </div>
+
+
+        <div class="mb-7">
+            <div class="flex justify-between py-1">
+                <span class="text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">Photoshop</span>
+                <span class="text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">75%</span>
+            </div>
+            <svg class="rc-progress-line" viewBox="0 0 100 1" preserveAspectRatio="none">
+                <path class="rc-progress-line-trail" d="M 0.5,0.5
+         L 99.5,0.5" stroke-linecap="round" stroke="#D9D9D9" stroke-width="1" fill-opacity="0"></path>
+                <path class="rc-progress-line-path" d="M 0.5,0.5
+         L 99.5,0.5" stroke-linecap="round" stroke="#9272D4" stroke-width="1" fill-opacity="0"
+                    style="stroke-dasharray: 74.25px, 100px; stroke-dashoffset: 0px; transition: stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s linear 0s, 0.06s;">
+                </path>
+            </svg>
+        </div>
+
+    </div>
+</div>
+
+
+  <div class="mx-auto max-w-7xl px-6 lg:px-8 work"style=" margin-bottom: 100px;">
+    <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2 text-center xdc">
+      <div class="lg:pt-4 lg:pr-8">
+        <div class="lg:max-w-lg mt-53">
+        
+          <p class="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl  text-center" style="color: #45175d;   ">معرض اعمالنا</p>
+          <p class="mt-6 text-lg/8 text-gray-600" style="">الق نظرة علي موقع اعمالنا لتتأكد ان خدماتنا متوافقة مع طلباتك ومشاريعك.</p>
+          <dl class="mt-10 max-w-xl space-y-8 text-base/7 text-gray-600 lg:max-w-none">
+           
+          
+            <div class="relative pl-9">
+             <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+
+              <dd class="inline">.</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    
+     
+      <dotlottie-player class="animatedbg" src="https://lottie.host/74a43770-ec06-4e96-82b4-8d1ef12d343e/EmqbfBuGTy.lottie" background="transparent" speed="1" style="width:340px; height: 450px" loop autoplay></dotlottie-player>
+     
+    </div>
+  </div>
+</div>
+
+
+
+
+    <section id="portfolio" class="container mx-auto px-4 py-16">
+        <h2 class="text-4xl font-bold text-center mb-16 text-blue-800">  تطوير المواقع</h2>
+
+        <div class="project-row flex flex-col md:flex-row items-center justify-center mb-20 md:mb-32">
+            <div class="project-image w-full md:w-3/5 lg:w-1/2 mb-8 md:mb-0 md:ml-8 lg:ml-12 overflow-hidden rounded-lg shadow-xl opacity-0 translate-x-16">
+                <img src="7587686.jpg" alt="صورة مشروع تجارة إلكترونية" class="w-full h-auto object-cover transform transition-transform duration-500 hover:scale-105">
+            </div>
+            <div class="project-content w-full md:w-2/5 lg:w-1/2 text-center md:text-right p-4 opacity-0 translate-x-[-16px]">
+                <span class="text-sm font-medium text-blue-500 uppercase tracking-wide mb-2 block">تصميم واجهات، تجارة إلكترونية</span>
+                <h3 class="text-4xl font-extrabold mb-4 text-gray-800">متجر إلكتروني للملابس الفاخرة</h3>
+                <p class="text-gray-600 leading-relaxed mb-6">
+                    بناء منصة متكاملة لبيع الأزياء الراقية، مع تجربة مستخدم سلسة، نظام سلة مشتريات ذكي، وبوابة دفع آمنة. تم التركيز على التفاصيل البصرية والأداء العالي.
+                </p>
+                <a href="#" class="inline-block bg-blue-600 text-white py-3 px-8 rounded-full text-lg font-semibold hover:bg-blue-700 transition-colors duration-300 shadow-lg">استكشف المشروع &rarr;</a>
+            </div>
+        </div>
+
+        <div class="project-row flex flex-col md:flex-row-reverse items-center justify-center mb-20 md:mb-32">
+            <div class="project-image w-full md:w-3/5 lg:w-1/2 mb-8 md:mb-0 md:mr-8 lg:mr-12 overflow-hidden rounded-lg shadow-xl opacity-0 translate-x-[-16px]">
+                <img src="7587675.jpg" alt="صورة تطبيق ويب لإدارة المهام" class="w-full h-auto object-cover transform transition-transform duration-500 hover:scale-105">
+            </div>
+            <div class="project-content w-full md:w-2/5 lg:w-1/2 text-center md:text-left p-4 opacity-0 translate-x-16">
+                <span class="text-sm font-medium text-green-500 uppercase tracking-wide mb-2 block">تطوير ويب، إدارة بيانات</span>
+                <h3 class="text-4xl font-extrabold mb-4 text-gray-800">نظام إدارة مهام إنتاجي</h3>
+                <p class="text-gray-600 leading-relaxed mb-6">
+                    تطبيق ويب تفاعلي لمساعدة المستخدمين على تنظيم مهامهم اليومية. يتميز بواجهة سهلة الاستخدام، إشعارات ذكية، وتكامل مع التقويم.
+                </p>
+                <a href="#" class="inline-block bg-green-600 text-white py-3 px-8 rounded-full text-lg font-semibold hover:bg-green-700 transition-colors duration-300 shadow-lg">شاهد التفاصيل &rarr;</a>
+            </div>
+        </div>
+
+        <div class="project-row flex flex-col md:flex-row items-center justify-center mb-20 md:mb-32">
+            <div class="project-image w-full md:w-3/5 lg:w-1/2 mb-8 md:mb-0 md:ml-8 lg:ml-12 overflow-hidden rounded-lg shadow-xl opacity-0 translate-x-16">
+                <img src="homepage-seen-computer-screen.jpg" alt="صورة مدونة محتوى تعليمي" class="w-full h-auto object-cover transform transition-transform duration-500 hover:scale-105">
+            </div>
+            <div class="project-content w-full md:w-2/5 lg:w-1/2 text-center md:text-right p-4 opacity-0 translate-x-[-16px]">
+                <span class="text-sm font-medium text-indigo-500 uppercase tracking-wide mb-2 block">مدونات، UX/UI، محتوى</span>
+                <h3 class="text-4xl font-extrabold mb-4 text-gray-800">مدونة تعليمية تفاعلية</h3>
+                <p class="text-gray-600 leading-relaxed mb-6">
+                    تصميم وتطوير مدونة متخصصة في نشر المقالات التعليمية، مع نظام تعليقات متقدم وإمكانية البحث السريع لسهولة الوصول للمعلومات.
+                </p>
+                <a href="#" class="inline-block bg-indigo-600 text-white py-3 px-8 rounded-full text-lg font-semibold hover:bg-indigo-700 transition-colors duration-300 shadow-lg">اقرأ المزيد &rarr;</a>
+            </div>
+        </div>
+
+        </section>
+
+<div class="">
+  <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+    <h2 class="text-2xl font-bold tracking-tight text-gray-900  text-center">تطوير التطبيقات</h2>
+
+    <div class="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+      <div class="group relative">
+    <img src="منشور انستجرام ازرق عن تحميل تطبيق عقارات.png" alt="Front of men&#039;s Basic Tee in black." class="aspect-square w-full rounded-md bg-gray-200 object-cover group-hover:opacity-75 lg:aspect-auto lg:h-80"><        <div class="mt-4 flex justify-between">
+          <div>
+            <h3 class="text-sm text-gray-700">
+              <a href="malik (2) (3).apk">
+                <span aria-hidden="true" class="absolute inset-0"></span>
+      تطبيق قران
+              </a>
+            </h3>
+        
+          </div>
+     
+        </div>
+      </div>
+      <div class="group relative">
+        <img src="منشور انستجرام ازرق عن تحميل تطبيق عقارات.png"Front of men&#039;s Basic Tee in black." class="aspect-square w-full rounded-md bg-gray-200 object-cover group-hover:opacity-75 lg:aspect-auto lg:h-80">
+        <div class="mt-4 flex justify-between">
+          <div>
+            <h3 class="text-sm text-gray-700">
+              <a href="base3.apk">
+                <span aria-hidden="true" class="absolute inset-0"></span>
+            تطبيق arrive              </a>
+            </h3>
+          
+          </div>
+         
+        </div>
+      </div>      <div class="group relative">
+        <img src="منشور انستجرام ازرق عن تحميل تطبيق عقارات (4).png" alt="Front of men&#039;s Basic Tee in black." class="aspect-square w-full rounded-md bg-gray-200 object-cover group-hover:opacity-75 lg:aspect-auto lg:h-80">
+        <div class="mt-4 flex justify-between">
+          <div>
+            <h3 class="text-sm text-gray-700">
+              <a href="base.apk">
+                <span aria-hidden="true" class="absolute inset-0"></span>
+          تطبيق ماركت صغير
+              </a>
+            </h3>
+    
+          </div>
+        
+        </div>
+      </div>      <div class="group relative">
+        <img src="منشور انستجرام ازرق عن تحميل تطبيق عقارات (2).png" alt="Front of men&#039;s Basic Tee in black." class="aspect-square w-full rounded-md bg-gray-200 object-cover group-hover:opacity-75 lg:aspect-auto lg:h-80">
+        <div class="mt-4 flex justify-between">
+          <div>
+            <h3 class="text-sm text-gray-700">
+              <a href="base2.apk">
+                <span aria-hidden="true" class="absolute inset-0"></span>
+           youtubde video viewer without ads(ak tube)
+              </a>
+            </h3>
+
+          </div>
+     
+        </div>
+      </div>
+      <!-- More products... -->
+    </div>
+  </div>
+</div>
+
+<h1 class="text-3xl font-bold tracking-tight text-gray-900 text-center mx-auto justify-center mb-0 text-6xl " style="text-shadow: 2px 2px 7px rgba(42, 12, 12, 0.404);">فوتوشوب</h1>
+<div class="grid grid-cols-2 md:grid-cols-3 gap-5 mt-[25px]">
+      <div>
+      <img class="h-auto max-w-full rounded-lg" src="https://pagedone.io/asset/uploads/1688025668.png" alt="Gallery image" />
+      </div>
+      <div>
+      <img class="h-auto max-w-full rounded-lg" src="https://pagedone.io/asset/uploads/1688029344.png" alt="Gallery image" />
+      </div>
+      <div>
+      <img class="h-auto max-w-full rounded-lg" src="https://pagedone.io/asset/uploads/1688029370.png" alt="Gallery image" />
+      </div>
+      <div>
+      <img class="h-auto max-w-full rounded-lg" src="https://pagedone.io/asset/uploads/1688029384.png" alt="Gallery image" />
+      </div>
+      <div>
+      <img class="h-auto max-w-full rounded-lg" src="https://pagedone.io/asset/uploads/1688029394.png" alt="Gallery image" />
+      </div>
+      <div>
+      <img class="h-auto max-w-full rounded-lg" src="https://pagedone.io/asset/uploads/1688029408.png" alt="Gallery image" />
+      </div>
+      <div>
+      <img class="h-auto max-w-full rounded-lg" src="https://pagedone.io/asset/uploads/1688029424.jpg" alt="Gallery image" />
+      </div>
+      <div>
+      <img class="h-auto max-w-full rounded-lg" src="https://pagedone.io/asset/uploads/1688029434.png" alt="Gallery image" />
+      </div>
+      <div>
+      <img class="h-auto max-w-full rounded-lg" src="https://pagedone.io/asset/uploads/1688029447.jpg" alt="Gallery image" />
+      </div>
+      </div>
+      <div class=" h-screen">
+    <div class="py-10 max-w-screen-lg mx-auto">
+        <div class="text-center mb-16">
+            <p class="mt-4 text-sm leading-7 text-gray-500 font-regular">
+                THE TEAM
+            </p>
+            <h3 class="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-gray-900">
+               فريق  <span class="text-indigo-600">العمل  </span>
+            </h3>
+        </div>
+
+
+        <div class="grid grid-cols-3 col-gap-10">
+
+            <div class="text-center bg-white">
+                <img class="w-100" src="online-payment (1).png">
+                <div class="p-4">
+                    <div class="text-md">
+                        <a href="#"
+                            class="hover:text-indigo-500 text-gray-900 font-semibold transition duration-500 ease-in-out">Mehdi
+                            Mohammadi</a>
+                        <p class="text-gray-500 uppercase text-sm">Web developer</p>
+                    </div>
+                    <div class="my-4 flex justify-center items-center">
+                        <a href="#">
+
+                            <svg class="mr-3" width="18px" height="18px" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g data-name="Layer 2">
+                                    <g data-name="facebook">
+                                        <rect width="24" height="24" transform="rotate(180 12 12)" opacity="0"></rect>
+                                        <path
+                                            d="M17 3.5a.5.5 0 0 0-.5-.5H14a4.77 4.77 0 0 0-5 4.5v2.7H6.5a.5.5 0 0 0-.5.5v2.6a.5.5 0 0 0 .5.5H9v6.7a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-6.7h2.62a.5.5 0 0 0 .49-.37l.72-2.6a.5.5 0 0 0-.48-.63H13V7.5a1 1 0 0 1 1-.9h2.5a.5.5 0 0 0 .5-.5z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg></a>
+                        <a href="#">
+                            <svg class="mr-3" width="16px" height="16px" version="1.1" id="Layer_1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                                y="0px" viewBox="0 0 310 310" style="enable-background:new 0 0 310 310;"
+                                xml:space="preserve">
+                                <g id="XMLID_826_">
+                                    <path id="XMLID_827_" d="M302.973,57.388c-4.87,2.16-9.877,3.983-14.993,5.463c6.057-6.85,10.675-14.91,13.494-23.73
+		c0.632-1.977-0.023-4.141-1.648-5.434c-1.623-1.294-3.878-1.449-5.665-0.39c-10.865,6.444-22.587,11.075-34.878,13.783
+		c-12.381-12.098-29.197-18.983-46.581-18.983c-36.695,0-66.549,29.853-66.549,66.547c0,2.89,0.183,5.764,0.545,8.598
+		C101.163,99.244,58.83,76.863,29.76,41.204c-1.036-1.271-2.632-1.956-4.266-1.825c-1.635,0.128-3.104,1.05-3.93,2.467
+		c-5.896,10.117-9.013,21.688-9.013,33.461c0,16.035,5.725,31.249,15.838,43.137c-3.075-1.065-6.059-2.396-8.907-3.977
+		c-1.529-0.851-3.395-0.838-4.914,0.033c-1.52,0.871-2.473,2.473-2.513,4.224c-0.007,0.295-0.007,0.59-0.007,0.889
+		c0,23.935,12.882,45.484,32.577,57.229c-1.692-0.169-3.383-0.414-5.063-0.735c-1.732-0.331-3.513,0.276-4.681,1.597
+		c-1.17,1.32-1.557,3.16-1.018,4.84c7.29,22.76,26.059,39.501,48.749,44.605c-18.819,11.787-40.34,17.961-62.932,17.961
+		c-4.714,0-9.455-0.277-14.095-0.826c-2.305-0.274-4.509,1.087-5.294,3.279c-0.785,2.193,0.047,4.638,2.008,5.895
+		c29.023,18.609,62.582,28.445,97.047,28.445c67.754,0,110.139-31.95,133.764-58.753c29.46-33.421,46.356-77.658,46.356-121.367
+		c0-1.826-0.028-3.67-0.084-5.508c11.623-8.757,21.63-19.355,29.773-31.536c1.237-1.85,1.103-4.295-0.33-5.998
+		C307.394,57.037,305.009,56.486,302.973,57.388z"></path>
+                                </g>
+                            </svg></a>
+
+                        <a href="#">
+                            <svg width="19px" height="19px" version="1.1" id="Layer_1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                                y="0px" viewBox="0 0 239.04 239.04" style="enable-background:new 0 0 239.04 239.04;"
+                                xml:space="preserve">
+                                <g>
+                                    <path style="fill:#FFFFFF;" d="M167.809,36.555c-22.276-0.183-44.597-1.054-66.919-0.504c-25.851,0.642-46.018,2.2-61.281,22.872
+		c-3.988,9.854-6.004,21.359-6.967,33.368c-0.183,3.163-0.367,6.417-0.596,9.763c-0.825,20.396,0.55,41.435,0.092,58.118
+		c2.154,10.955,6.371,20.809,14.255,28.326c26.126,24.888,79.294,17.142,114.128,15.767c16.73-6.096,30.663-11.138,38.134-30.251
+		c5.913-15.034,4.95-34.193,5.363-50.326C204.797,90.502,206.264,44.714,167.809,36.555z"></path>
+                                    <path d="M157.588,48.38c44.505,5.729,31.443,70.219,30.205,101.478c-0.688,17.188-3.758,30.48-21.496,36.438
+		c-23.33,7.838-57.706,5.225-81.494,1.742c-15.905-2.292-28.372-7.059-32.772-23.559c-6.967-26.08-4.996-61.373-1.971-87.957
+		c0.092-0.504,0.229-0.871,0.458-1.192C50.93,35.547,134.441,45.401,157.588,48.38z"></path>
+                                    <path style="fill:#FFFFFF;" d="M176.059,72.627c0.092-10.955-13.567-14.438-20.901-7.7c-1.971,1.833-2.888,4.629-3.025,7.654
+		c0.733,3.896,3.071,7.746,6.096,9.946C165.334,87.523,175.967,80.877,176.059,72.627z"></path>
+                                    <path style="fill:#FFFFFF;"
+                                        d="M155.754,93.94c-15.675-23.742-51.06-26.08-70.081-5.042c-12.971,14.346-13.888,38.226-4.125,55.185
+		c0.55,0.183,1.054,0.504,1.513,1.054c15.859,17.692,43.176,24.109,62.794,8.067C163.363,138.858,168.496,113.236,155.754,93.94z"></path>
+                                    <path d="M93.282,126.483c5.546,15.584,25.255,27.959,40.976,18.334c31.763-19.434-5.546-72.235-31.718-48.814
+		C93.282,101.457,89.661,116.261,93.282,126.483z"></path>
+                                </g>
+                            </svg></a>
+
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="text-center bg-purple-50">
+                <img class="w-100" src="online-payment.png">
+                <div class="p-4">
+                    <div class="text-md">
+                        <a href="#"
+                            class="hover:text-indigo-500 text-gray-900 font-semibold transition duration-500 ease-in-out">Yahya
+                            R. Makarim</a>
+                        <p class="text-gray-500 uppercase text-sm"> app developer</p>
+                    </div>
+                    <div class="my-4 flex justify-center items-center">
+                        <a href="#">
+
+                            <svg class="mr-3" width="18px" height="18px" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g data-name="Layer 2">
+                                    <g data-name="facebook">
+                                        <rect width="24" height="24" transform="rotate(180 12 12)" opacity="0"></rect>
+                                        <path
+                                            d="M17 3.5a.5.5 0 0 0-.5-.5H14a4.77 4.77 0 0 0-5 4.5v2.7H6.5a.5.5 0 0 0-.5.5v2.6a.5.5 0 0 0 .5.5H9v6.7a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-6.7h2.62a.5.5 0 0 0 .49-.37l.72-2.6a.5.5 0 0 0-.48-.63H13V7.5a1 1 0 0 1 1-.9h2.5a.5.5 0 0 0 .5-.5z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg></a>
+                        <a href="#">
+                            <svg class="mr-3" width="16px" height="16px" version="1.1" id="Layer_1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                                y="0px" viewBox="0 0 310 310" style="enable-background:new 0 0 310 310;"
+                                xml:space="preserve">
+                                <g id="XMLID_826_">
+                                    <path id="XMLID_827_" d="M302.973,57.388c-4.87,2.16-9.877,3.983-14.993,5.463c6.057-6.85,10.675-14.91,13.494-23.73
+		c0.632-1.977-0.023-4.141-1.648-5.434c-1.623-1.294-3.878-1.449-5.665-0.39c-10.865,6.444-22.587,11.075-34.878,13.783
+		c-12.381-12.098-29.197-18.983-46.581-18.983c-36.695,0-66.549,29.853-66.549,66.547c0,2.89,0.183,5.764,0.545,8.598
+		C101.163,99.244,58.83,76.863,29.76,41.204c-1.036-1.271-2.632-1.956-4.266-1.825c-1.635,0.128-3.104,1.05-3.93,2.467
+		c-5.896,10.117-9.013,21.688-9.013,33.461c0,16.035,5.725,31.249,15.838,43.137c-3.075-1.065-6.059-2.396-8.907-3.977
+		c-1.529-0.851-3.395-0.838-4.914,0.033c-1.52,0.871-2.473,2.473-2.513,4.224c-0.007,0.295-0.007,0.59-0.007,0.889
+		c0,23.935,12.882,45.484,32.577,57.229c-1.692-0.169-3.383-0.414-5.063-0.735c-1.732-0.331-3.513,0.276-4.681,1.597
+		c-1.17,1.32-1.557,3.16-1.018,4.84c7.29,22.76,26.059,39.501,48.749,44.605c-18.819,11.787-40.34,17.961-62.932,17.961
+		c-4.714,0-9.455-0.277-14.095-0.826c-2.305-0.274-4.509,1.087-5.294,3.279c-0.785,2.193,0.047,4.638,2.008,5.895
+		c29.023,18.609,62.582,28.445,97.047,28.445c67.754,0,110.139-31.95,133.764-58.753c29.46-33.421,46.356-77.658,46.356-121.367
+		c0-1.826-0.028-3.67-0.084-5.508c11.623-8.757,21.63-19.355,29.773-31.536c1.237-1.85,1.103-4.295-0.33-5.998
+		C307.394,57.037,305.009,56.486,302.973,57.388z"></path>
+                                </g>
+                            </svg></a>
+
+                        <a href="#">
+                            <svg width="19px" height="19px" version="1.1" id="Layer_1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                                y="0px" viewBox="0 0 239.04 239.04" style="enable-background:new 0 0 239.04 239.04;"
+                                xml:space="preserve">
+                                <g>
+                                    <path style="fill:#FFFFFF;" d="M167.809,36.555c-22.276-0.183-44.597-1.054-66.919-0.504c-25.851,0.642-46.018,2.2-61.281,22.872
+		c-3.988,9.854-6.004,21.359-6.967,33.368c-0.183,3.163-0.367,6.417-0.596,9.763c-0.825,20.396,0.55,41.435,0.092,58.118
+		c2.154,10.955,6.371,20.809,14.255,28.326c26.126,24.888,79.294,17.142,114.128,15.767c16.73-6.096,30.663-11.138,38.134-30.251
+		c5.913-15.034,4.95-34.193,5.363-50.326C204.797,90.502,206.264,44.714,167.809,36.555z"></path>
+                                    <path d="M157.588,48.38c44.505,5.729,31.443,70.219,30.205,101.478c-0.688,17.188-3.758,30.48-21.496,36.438
+		c-23.33,7.838-57.706,5.225-81.494,1.742c-15.905-2.292-28.372-7.059-32.772-23.559c-6.967-26.08-4.996-61.373-1.971-87.957
+		c0.092-0.504,0.229-0.871,0.458-1.192C50.93,35.547,134.441,45.401,157.588,48.38z"></path>
+                                    <path style="fill:#FFFFFF;" d="M176.059,72.627c0.092-10.955-13.567-14.438-20.901-7.7c-1.971,1.833-2.888,4.629-3.025,7.654
+		c0.733,3.896,3.071,7.746,6.096,9.946C165.334,87.523,175.967,80.877,176.059,72.627z"></path>
+                                    <path style="fill:#FFFFFF;"
+                                        d="M155.754,93.94c-15.675-23.742-51.06-26.08-70.081-5.042c-12.971,14.346-13.888,38.226-4.125,55.185
+		c0.55,0.183,1.054,0.504,1.513,1.054c15.859,17.692,43.176,24.109,62.794,8.067C163.363,138.858,168.496,113.236,155.754,93.94z"></path>
+                                    <path d="M93.282,126.483c5.546,15.584,25.255,27.959,40.976,18.334c31.763-19.434-5.546-72.235-31.718-48.814
+		C93.282,101.457,89.661,116.261,93.282,126.483z"></path>
+                                </g>
+                            </svg></a>
+
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="text-center bg-white">
+            <img class="w-100" src="data-analysis.png">
+                <div class="p-4">
+                <div class="p-4">
+                    <div class="text-md">
+                        <a href="#"
+                            class="hover:text-indigo-500 text-gray-900 font-semibold transition duration-500 ease-in-out">Ahmad
+                            Sultani</a>
+                        <p class="text-gray-500 uppercase text-sm">photoshop expert</p>
+                    </div>
+                    <div class="my-4 flex justify-center items-center">
+                        <a href="#">
+
+                            <svg class="mr-3" width="18px" height="18px" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g data-name="Layer 2">
+                                    <g data-name="facebook">
+                                        <rect width="24" height="24" transform="rotate(180 12 12)" opacity="0"></rect>
+                                        <path
+                                            d="M17 3.5a.5.5 0 0 0-.5-.5H14a4.77 4.77 0 0 0-5 4.5v2.7H6.5a.5.5 0 0 0-.5.5v2.6a.5.5 0 0 0 .5.5H9v6.7a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-6.7h2.62a.5.5 0 0 0 .49-.37l.72-2.6a.5.5 0 0 0-.48-.63H13V7.5a1 1 0 0 1 1-.9h2.5a.5.5 0 0 0 .5-.5z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg></a>
+                        <a href="#">
+                            <svg class="mr-3" width="16px" height="16px" version="1.1" id="Layer_1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                                y="0px" viewBox="0 0 310 310" style="enable-background:new 0 0 310 310;"
+                                xml:space="preserve">
+                                <g id="XMLID_826_">
+                                    <path id="XMLID_827_" d="M302.973,57.388c-4.87,2.16-9.877,3.983-14.993,5.463c6.057-6.85,10.675-14.91,13.494-23.73
+		c0.632-1.977-0.023-4.141-1.648-5.434c-1.623-1.294-3.878-1.449-5.665-0.39c-10.865,6.444-22.587,11.075-34.878,13.783
+		c-12.381-12.098-29.197-18.983-46.581-18.983c-36.695,0-66.549,29.853-66.549,66.547c0,2.89,0.183,5.764,0.545,8.598
+		C101.163,99.244,58.83,76.863,29.76,41.204c-1.036-1.271-2.632-1.956-4.266-1.825c-1.635,0.128-3.104,1.05-3.93,2.467
+		c-5.896,10.117-9.013,21.688-9.013,33.461c0,16.035,5.725,31.249,15.838,43.137c-3.075-1.065-6.059-2.396-8.907-3.977
+		c-1.529-0.851-3.395-0.838-4.914,0.033c-1.52,0.871-2.473,2.473-2.513,4.224c-0.007,0.295-0.007,0.59-0.007,0.889
+		c0,23.935,12.882,45.484,32.577,57.229c-1.692-0.169-3.383-0.414-5.063-0.735c-1.732-0.331-3.513,0.276-4.681,1.597
+		c-1.17,1.32-1.557,3.16-1.018,4.84c7.29,22.76,26.059,39.501,48.749,44.605c-18.819,11.787-40.34,17.961-62.932,17.961
+		c-4.714,0-9.455-0.277-14.095-0.826c-2.305-0.274-4.509,1.087-5.294,3.279c-0.785,2.193,0.047,4.638,2.008,5.895
+		c29.023,18.609,62.582,28.445,97.047,28.445c67.754,0,110.139-31.95,133.764-58.753c29.46-33.421,46.356-77.658,46.356-121.367
+		c0-1.826-0.028-3.67-0.084-5.508c11.623-8.757,21.63-19.355,29.773-31.536c1.237-1.85,1.103-4.295-0.33-5.998
+		C307.394,57.037,305.009,56.486,302.973,57.388z"></path>
+                                </g>
+                            </svg></a>
+
+                        <a href="#">
+                            <svg width="19px" height="19px" version="1.1" id="Layer_1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                                y="0px" viewBox="0 0 239.04 239.04" style="enable-background:new 0 0 239.04 239.04;"
+                                xml:space="preserve">
+                                <g>
+                                    <path style="fill:#FFFFFF;" d="M167.809,36.555c-22.276-0.183-44.597-1.054-66.919-0.504c-25.851,0.642-46.018,2.2-61.281,22.872
+		c-3.988,9.854-6.004,21.359-6.967,33.368c-0.183,3.163-0.367,6.417-0.596,9.763c-0.825,20.396,0.55,41.435,0.092,58.118
+		c2.154,10.955,6.371,20.809,14.255,28.326c26.126,24.888,79.294,17.142,114.128,15.767c16.73-6.096,30.663-11.138,38.134-30.251
+		c5.913-15.034,4.95-34.193,5.363-50.326C204.797,90.502,206.264,44.714,167.809,36.555z"></path>
+                                    <path d="M157.588,48.38c44.505,5.729,31.443,70.219,30.205,101.478c-0.688,17.188-3.758,30.48-21.496,36.438
+		c-23.33,7.838-57.706,5.225-81.494,1.742c-15.905-2.292-28.372-7.059-32.772-23.559c-6.967-26.08-4.996-61.373-1.971-87.957
+		c0.092-0.504,0.229-0.871,0.458-1.192C50.93,35.547,134.441,45.401,157.588,48.38z"></path>
+                                    <path style="fill:#FFFFFF;" d="M176.059,72.627c0.092-10.955-13.567-14.438-20.901-7.7c-1.971,1.833-2.888,4.629-3.025,7.654
+		c0.733,3.896,3.071,7.746,6.096,9.946C165.334,87.523,175.967,80.877,176.059,72.627z"></path>
+                                    <path style="fill:#FFFFFF;"
+                                        d="M155.754,93.94c-15.675-23.742-51.06-26.08-70.081-5.042c-12.971,14.346-13.888,38.226-4.125,55.185
+		c0.55,0.183,1.054,0.504,1.513,1.054c15.859,17.692,43.176,24.109,62.794,8.067C163.363,138.858,168.496,113.236,155.754,93.94z"></path>
+                                    <path d="M93.282,126.483c5.546,15.584,25.255,27.959,40.976,18.334c31.763-19.434-5.546-72.235-31.718-48.814
+		C93.282,101.457,89.661,116.261,93.282,126.483z"></path>
+                                </g>
+                            </svg></a>
+
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<section id="CallMe" class="relative py-14 mt-[100px]">
+  <div class="z-10 absolute opacity-90 rounded-full blur-[200px] w-[40%] h-[40%] bg-blue-600 top-[200px] ml-[20%]">
+  </div>
+  <div id="GET IN TOUCH"
+    class="flex  select-auto mx-auto items-center justify-center gap-3 sm:pb-1 w-[210px] sm:w-[410px] border-b-4 sm:border-b-8 border-[#38B7FF] border-primary font-black">
+    <svg aria-hidden="true" class="icon" width="50" height="50" fill="none" xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 50 53" id="call_us">
+      <path
+        d="M21.4286 0C15.5134 0 10.7143 4.74792 10.7143 10.6C10.7143 16.4521 15.5134 21.2 21.4286 21.2C27.3437 21.2 32.1429 16.4521 32.1429 10.6C32.1429 4.74792 27.3437 0 21.4286 0ZM16.0714 24.7333C7.17076 24.7333 0 31.8276 0 40.6333V42.4C0 46.3198 3.1808 49.4667 7.14286 49.4667H28.5714V45.9333H17.8571V31.8H28.5714V24.8299C27.9855 24.7609 27.3856 24.7333 26.7857 24.7333H16.0714ZM32.1429 24.7333V35.3333H21.4286V42.4H32.1429V53H39.2857V42.4H50V35.3333H39.2857V24.7333H32.1429Z"
+        fill="#38B7FF"></path>
+    </svg>
+    <h2 class="text-black text-2xl sm:text-[48px]">تواصل معنا</h2>
+  </div>
+  <div class="z-20 relative px-5 mt-20 md:mt-24 flex flex-wrap gap-7 justify-center lg:max-w-[800px] mx-auto ">
+    <div
+      class="w-[100px] hover:scale-[1.1] h-[125px] sm:w-[200px] sm:h-[225px] gap-1 md:gap-4 flex flex-col  px-2 py-3 justify-center items-center bg-white  bg-opacity-30 rounded-[25px]">
+      <svg aria-hidden="true" class="icon w-[64px] sm:w-[100px] h-[64px] sm:h-[100px]" fill="none"
+        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" id="whatsapp">
+        <path
+          d="M10.1416 90.2147L15.7541 69.7251C12.2916 63.7292 10.4708 56.9251 10.4729 49.9563C10.4833 28.1542 28.2249 10.4167 50.0291 10.4167C60.6103 10.4209 70.5395 14.5397 78.0083 22.0126C85.4749 29.4876 89.5874 39.4209 89.5833 49.9876C89.5749 71.7897 71.8291 89.5292 50.0291 89.5292H50.0124C43.3937 89.5272 36.8874 87.8667 31.1103 84.7147L10.1416 90.2147Z"
+          fill="white"></path>
+        <path
+          d="M10.1418 91.2562C9.86683 91.2562 9.60016 91.1479 9.40225 90.9479C9.14183 90.6833 9.03975 90.2979 9.13766 89.9417L14.6356 69.8667C11.2272 63.8125 9.42933 56.9375 9.4335 49.9583C9.44183 27.5792 27.6522 9.375 50.0293 9.375C60.8835 9.37917 71.0814 13.6063 78.746 21.2771C86.4106 28.95 90.6293 39.1458 90.6252 49.9875C90.6168 72.3646 72.4043 90.5708 50.0293 90.5708C43.3856 90.5687 36.8127 88.9292 30.9793 85.8271L10.4064 91.2208C10.3189 91.2458 10.2314 91.2562 10.1418 91.2562Z"
+          fill="white"></path>
+        <path
+          d="M50.0293 10.4166C60.6106 10.4208 70.5397 14.5395 78.0085 22.0124C85.4751 29.4874 89.5876 39.4207 89.5835 49.9874C89.5751 71.7895 71.8293 89.5291 50.0293 89.5291H50.0126C43.3939 89.527 36.8876 87.8666 31.1106 84.7145L10.1418 90.2145L15.7543 69.7249C12.2918 63.7291 10.471 56.9249 10.4731 49.9562C10.4835 28.1541 28.2251 10.4166 50.0293 10.4166ZM50.0293 8.33325C27.0793 8.33325 8.40014 27.0041 8.38972 49.9562C8.38764 56.9708 10.1585 63.8833 13.5168 70.002L8.13139 89.6666C7.93556 90.3853 8.13556 91.152 8.66056 91.6812C9.05639 92.0812 9.59181 92.2999 10.1418 92.2999C10.3189 92.2999 10.496 92.277 10.671 92.2312L30.8522 86.9395C36.7439 89.9978 43.3481 91.6124 50.0126 91.6145C72.9793 91.6145 91.6585 72.9416 91.6689 49.9895C91.6731 38.8666 87.346 28.4083 79.4856 20.5416C71.621 12.6728 61.1606 8.33742 50.0293 8.33325Z"
+          fill="#CFD8DC"></path>
+        <path
+          d="M73.1333 27.1375C66.925 20.925 58.6729 17.5021 49.8896 17.5C31.7562 17.5 17.0083 32.2417 17 50.3625C16.9979 56.5729 18.7354 62.6187 22.0271 67.8542L22.8104 69.0979L19.4875 81.225L31.9313 77.9625L33.1333 78.675C38.1792 81.6708 43.9667 83.2542 49.8667 83.2562H49.8792C68 83.2562 82.7479 68.5125 82.7542 50.3896C82.7562 41.6083 79.3417 33.35 73.1333 27.1375Z"
+          fill="#38B7FF"></path>
+        <path fill-rule="evenodd" clip-rule="evenodd"
+          d="M40.1418 33.4271C39.4022 31.7813 38.6231 31.7479 37.9168 31.7188C37.3397 31.6938 36.6814 31.6958 36.0231 31.6958C35.3647 31.6958 34.2939 31.9438 33.3877 32.9333C32.4814 33.9229 29.9272 36.3125 29.9272 41.175C29.9272 46.0375 33.4689 50.7375 33.9627 51.3958C34.4564 52.0542 40.8002 62.3521 50.846 66.3146C59.1939 69.6063 60.8939 68.9521 62.7064 68.7875C64.5189 68.6229 68.5543 66.3979 69.3772 64.0896C70.2002 61.7813 70.2002 59.8042 69.9543 59.3917C69.7064 58.9792 69.0481 58.7333 68.0606 58.2375C67.0731 57.7417 62.2127 55.3521 61.3064 55.0229C60.4002 54.6938 59.7418 54.5292 59.0814 55.5188C58.4231 56.5063 56.5293 58.7333 55.9522 59.3917C55.3752 60.0521 54.7981 60.1354 53.8106 59.6396C52.8231 59.1438 49.6397 58.1021 45.8627 54.7354C42.9252 52.1167 40.9418 48.8813 40.3647 47.8917C39.7877 46.9042 40.3022 46.3688 40.7981 45.875C41.2418 45.4313 41.7856 44.7208 42.2814 44.1438C42.7752 43.5667 42.9397 43.1542 43.2689 42.4958C43.5981 41.8354 43.4335 41.2583 43.1856 40.7646C42.9418 40.2688 41.021 35.3813 40.1418 33.4271Z"
+          fill="white"></path>
+      </svg>
+      <h3 class="text-base capitalize  font-black text-black sm:text-[28px]">whatsapp</h3>
+      <p class="text-sm text-center font-regular text-[#A4A4A5] sm:text-xl  "><a target="_blank"
+          href="https://wa.me/123456789">+123456789</a></p>
+    </div>
+    <div
+      class="w-[100px] hover:scale-[1.1] h-[125px] sm:w-[200px] sm:h-[225px] gap-1 md:gap-4 flex flex-col  px-2 py-3 justify-center items-center bg-white  bg-opacity-30 rounded-[25px]">
+      <svg aria-hidden="true" class="icon w-[64px] sm:w-[100px] h-[64px] sm:h-[100px]" fill="none"
+        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" id="telegram">
+        <path
+          d="M50.0002 8.33325C38.9495 8.33325 28.3514 12.7231 20.5374 20.5371C12.7234 28.3512 8.3335 38.9492 8.3335 49.9999C8.3335 61.0506 12.7234 71.6487 20.5374 79.4627C28.3514 87.2767 38.9495 91.6666 50.0002 91.6666C61.0508 91.6666 71.6489 87.2767 79.4629 79.4627C87.277 71.6487 91.6668 61.0506 91.6668 49.9999C91.6668 38.9492 87.277 28.3512 79.4629 20.5371C71.6489 12.7231 61.0508 8.33325 50.0002 8.33325Z"
+          fill="#38B7FF"></path>
+        <path
+          d="M70.7293 31.2501L62.9252 71.0959C62.9252 71.0959 62.5897 72.9168 60.3314 72.9168C59.1314 72.9168 58.5127 72.3459 58.5127 72.3459L41.6085 58.3188L33.3377 54.1501L22.7231 51.3272C22.7231 51.3272 20.8335 50.7813 20.8335 49.2188C20.8335 47.9168 22.7772 47.2959 22.7772 47.2959L67.1856 29.6543C67.1856 29.6543 68.5418 29.1647 69.5314 29.1668C70.1397 29.1668 70.8335 29.4272 70.8335 30.2084C70.8335 30.7293 70.7293 31.2501 70.7293 31.2501Z"
+          fill="white"></path>
+        <path
+          d="M47.9169 63.5522L40.7794 70.5814C40.7794 70.5814 40.469 70.8209 40.0544 70.8314C39.9106 70.8355 39.7565 70.8126 39.5981 70.7418L41.6065 58.3147L47.9169 63.5522Z"
+          fill="#B0BEC5"></path>
+        <path
+          d="M62.2856 37.9084C61.9335 37.45 61.2835 37.3667 60.8252 37.7146L33.3335 54.1667C33.3335 54.1667 37.721 66.4417 38.3897 68.5667C39.0606 70.6938 39.5981 70.7438 39.5981 70.7438L41.6064 58.3167L62.0897 39.3667C62.5481 39.0188 62.6335 38.3667 62.2856 37.9084Z"
+          fill="#CFD8DC"></path>
+      </svg>
+      <h3 class="text-base capitalize  font-black text-black sm:text-[28px]">telegram</h3>
+      <p class="text-sm text-center font-regular text-[#A4A4A5] sm:text-xl  "><a target="_blank"
+          href="https://t.me/username">UserName</a></p>
+    </div>
+    <div
+      class="w-[100px] hover:scale-[1.1] h-[125px] sm:w-[200px] sm:h-[225px] gap-1 md:gap-4 flex flex-col  px-2 py-3 justify-center items-center bg-white  bg-opacity-30 rounded-[25px]">
+      <svg aria-hidden="true" class="icon w-[64px] sm:w-[100px] h-[64px] sm:h-[100px]" fill="none"
+        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" id="location">
+        <path
+          d="M78.75 28.7656C78.75 21.1407 75.721 13.828 70.3293 8.4363C64.9376 3.04463 57.625 0.015625 50 0.015625C42.375 0.015625 35.0623 3.04463 29.6707 8.4363C24.279 13.828 21.25 21.1407 21.25 28.7656C21.25 44.6406 50 84.7812 50 84.7812C50 84.7812 78.75 44.6406 78.75 28.7656ZM31.25 28.7656C31.25 25.0572 32.3497 21.4321 34.4099 18.3487C36.4702 15.2653 39.3986 12.862 42.8247 11.4429C46.2508 10.0237 50.0208 9.65243 53.6579 10.3759C57.2951 11.0994 60.636 12.8851 63.2583 15.5074C65.8805 18.1296 67.6663 21.4705 68.3897 25.1077C69.1132 28.7448 68.7419 32.5148 67.3227 35.9409C65.9036 39.3671 63.5004 42.2954 60.4169 44.3557C57.3335 46.416 53.7084 47.5156 50 47.5156C45.0272 47.5156 40.2581 45.5402 36.7417 42.0239C33.2254 38.5076 31.25 33.7384 31.25 28.7656Z"
+          fill="#38B7FF"></path>
+        <path
+          d="M64.4687 67.1875C62.3125 70.7031 60.2188 73.9531 58.375 76.7344C66.1875 77.7969 71.6563 80.2969 71.6563 83.2344C71.6563 87.1094 61.9688 90.2656 50 90.2656C38.0313 90.2656 28.3437 87.1406 28.3437 83.2344C28.3437 80.2812 33.8438 77.7812 41.6406 76.7344C39.7969 73.9531 37.7031 70.6875 35.5469 67.1719C16.6406 69.3125 2.98438 75.6562 2.98438 83.1719C2.98438 92.4687 24.0312 100 50 100C75.9688 100 97.0156 92.4687 97.0156 83.1719C97.0156 75.6562 83.3594 69.3125 64.4687 67.1875Z"
+          fill="#38B7FF"></path>
+      </svg>
+      <h3 class="text-base capitalize  font-black text-black sm:text-[28px]">location</h3>
+      <p class="text-sm text-center font-regular text-[#A4A4A5] sm:text-xl  "><a target="_blank" href="location">Syria
+          Aleppo</a></p>
+    </div>
+    <div
+      class="w-[100px] hover:scale-[1.1] h-[125px] sm:w-[200px] sm:h-[225px] gap-1 md:gap-4 flex flex-col  px-2 py-3 justify-center items-center bg-white  bg-opacity-30 rounded-[25px]">
+      <svg aria-hidden="true" class="icon w-[64px] sm:w-[100px] h-[64px] sm:h-[100px]" fill="none"
+        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" id="linkedin">
+        <path
+          d="M87.5 77.0833C87.5 82.8375 82.8375 87.5 77.0833 87.5H22.9167C17.1646 87.5 12.5 82.8375 12.5 77.0833V22.9167C12.5 17.1625 17.1646 12.5 22.9167 12.5H77.0833C82.8375 12.5 87.5 17.1625 87.5 22.9167V77.0833Z"
+          fill="#38B7FF"></path>
+        <path opacity="0.05"
+          d="M62.4998 77.0834V56.0438C62.4998 52.5251 60.7936 50.423 57.9332 50.423C56.2353 50.423 54.9873 51.3792 54.2269 53.2647C54.1915 53.398 54.1415 53.9417 54.1623 55.5855L54.1665 77.0834H39.5832V37.5001H54.1665V39.7105C56.2957 38.2417 58.9061 37.5001 61.954 37.5001C71.4269 37.5001 77.0811 43.9438 77.0811 54.7376L77.0832 77.0834H62.4998ZM22.9165 77.0834V37.5001H30.1186C25.9457 37.5001 22.9165 34.4334 22.9165 30.2063C22.9165 25.9834 25.9957 22.9167 30.2373 22.9167C34.429 22.9167 37.4144 25.898 37.4998 30.1647C37.4998 34.423 34.4186 37.5001 30.1769 37.5001H37.4998V77.0834H22.9165Z"
+          fill="black"></path>
+        <path opacity="0.07"
+          d="M63.5418 76.0416V56.0437C63.5418 51.9332 61.3939 49.3812 57.9335 49.3812C55.2356 49.3812 53.9022 51.2812 53.2606 52.8749C53.0897 53.2895 53.1127 54.9353 53.121 55.6374L53.1252 76.0416H40.6252V38.5416H53.1252V41.9541C54.7814 40.2395 57.4481 38.5416 61.9543 38.5416C70.7731 38.5416 76.0397 44.5958 76.0397 54.7374L76.0418 76.0416H63.5418ZM23.9585 76.0416V38.5416H36.4585V76.0416H23.9585ZM30.1189 36.4583C26.5502 36.4583 23.9585 33.8291 23.9585 30.2062C23.9585 26.5853 26.6002 23.9583 30.2377 23.9583C33.8293 23.9583 36.3856 26.5187 36.4585 30.1853C36.4585 33.8291 33.8168 36.4583 30.1772 36.4583H30.1189Z"
+          fill="black"></path>
+        <path
+          d="M25 39.5833H35.4167V75H25V39.5833ZM30.1771 35.4167H30.1187C27.0104 35.4167 25 33.1 25 30.2062C25 27.25 27.0729 25 30.2375 25C33.4062 25 35.3583 27.25 35.4167 30.2062C35.4167 33.0979 33.4062 35.4167 30.1771 35.4167ZM75 75H64.5833V56.0437C64.5833 51.4646 62.0312 48.3396 57.9333 48.3396C54.8062 48.3396 53.1146 50.4479 52.2937 52.4854C51.9937 53.2146 52.0833 55.2312 52.0833 56.25V75H41.6667V39.5833H52.0833V45.0333C53.5854 42.7083 55.9375 39.5833 61.9542 39.5833C69.4083 39.5833 74.9979 44.2708 74.9979 54.7375L75 75Z"
+          fill="white"></path>
+      </svg>
+      <h3 class="text-base capitalize  font-black text-black sm:text-[28px]">linkedin</h3>
+      <p class="text-sm text-center font-regular text-[#A4A4A5] sm:text-xl  "><a target="_blank"
+          href="https://www.linkedin.com/in/abdulbasit-abdulgani">Abdulbasit</a></p>
+    </div>
+    <div
+      class="w-[100px] hover:scale-[1.1] h-[125px] sm:w-[200px] sm:h-[225px] gap-1 md:gap-4 flex flex-col  px-2 py-3 justify-center items-center bg-white  bg-opacity-30 rounded-[25px]">
+      <svg aria-hidden="true" class="icon w-[64px] sm:w-[100px] h-[64px] sm:h-[100px]" fill="none"
+        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" id="github">
+        <path
+          d="M35.582 93.672C37.004 93.06 38 91.646 38 90V79.2C38 78.806 38.032 78.396 38.082 77.98C38.054 77.988 38.028 77.994 38 78C38 78 32 78 30.8 78C27.8 78 25.2 76.8 24 74.4C22.6 71.8 22 67.4 18.4 65C17.8 64.6 18.2 64 19.4 64C20.6 64.2 23.2 65.8 24.8 68C26.6 70.2 28.4 72 31.6 72C36.574 72 39.24 71.75 40.844 70.89C42.712 68.112 45.298 66 48 66V65.95C36.664 65.586 29.422 61.818 26.05 56C18.72 56.084 12.338 56.81 8.696 57.414C8.58 56.76 8.48 56.102 8.394 55.44C11.988 54.848 18.08 54.146 25.084 54.012C24.86 53.46 24.666 52.894 24.502 52.314C17.48 51.958 11.42 52.236 8.128 52.508C8.088 51.844 8.034 51.182 8.026 50.51C11.324 50.24 17.22 49.97 24.062 50.288C23.904 49.288 23.802 48.266 23.802 47.202C23.802 43.802 25.002 40.202 27.202 37.202C26.202 33.802 24.802 26.602 27.602 24.002C33.002 24.002 36.802 26.602 38.602 28.202C42 26.8 45.8 26 50 26C54.2 26 58 26.8 61.2 28.2C63 26.6 66.8 24 72.2 24C75.2 26.8 73.6 34 72.6 37.2C74.8 40.2 76 43.6 75.8 47.2C75.8 48.168 75.71 49.102 75.58 50.018C82.578 49.674 88.634 49.95 91.988 50.222C91.984 50.896 91.922 51.554 91.886 52.22C88.544 51.944 82.336 51.66 75.168 52.042C74.99 52.714 74.774 53.368 74.518 54.002C81.61 54.094 87.848 54.78 91.614 55.38C91.528 56.044 91.428 56.702 91.312 57.354C87.488 56.742 80.97 56.026 73.554 55.99C70.224 61.746 63.114 65.5 52 65.938V66C57.2 66 62 73.8 62 79.2V90C62 91.646 62.996 93.06 64.418 93.672C82.74 87.608 96 70.328 96 50C96 24.636 75.366 4 50 4C24.634 4 4 24.636 4 50C4 70.328 17.26 87.608 35.582 93.672Z"
+          fill="#38B7FF"></path>
+      </svg>
+      <h3 class="text-base capitalize  font-black text-black sm:text-[28px]">github</h3>
+      <p class="text-sm text-center font-regular text-[#A4A4A5] sm:text-xl  "><a target="_blank"
+          href="https://github.com/3bd0sy">@3bd0sy</a></p>
+    </div>
+    <div
+      class="w-[100px] hover:scale-[1.1] h-[125px] sm:w-[200px] sm:h-[225px] gap-1 md:gap-4 flex flex-col  px-2 py-3 justify-center items-center bg-white  bg-opacity-30 rounded-[25px]">
+      <svg aria-hidden="true" class="icon w-[64px] sm:w-[100px] h-[64px] sm:h-[100px]" fill="none"
+        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" id="email">
+        <path
+          d="M83.2187 83.125H16.2812C12.7601 83.1209 9.38438 81.7203 6.89456 79.2304C4.40473 76.7406 3.00414 73.3649 3 69.8437V29.7812C3.00414 26.2601 4.40473 22.8844 6.89456 20.3946C9.38438 17.9047 12.7601 16.5041 16.2812 16.5H83.2187C86.7399 16.5041 90.1156 17.9047 92.6055 20.3946C95.0953 22.8844 96.4959 26.2601 96.5 29.7812V69.8437C96.4959 73.3649 95.0953 76.7406 92.6055 79.2304C90.1156 81.7203 86.7399 83.1209 83.2187 83.125ZM16.2812 21.1875C14.002 21.1875 11.8162 22.0929 10.2046 23.7046C8.59291 25.3162 7.6875 27.502 7.6875 29.7812V69.8437C7.6875 72.123 8.59291 74.3088 10.2046 75.9204C11.8162 77.5321 14.002 78.4375 16.2812 78.4375H83.2187C85.4979 78.4375 87.6838 77.5321 89.2954 75.9204C90.9071 74.3088 91.8125 72.123 91.8125 69.8437V29.7812C91.8125 27.502 90.9071 25.3162 89.2954 23.7046C87.6838 22.0929 85.4979 21.1875 83.2187 21.1875H16.2812Z"
+          fill="#38B7FF"></path>
+        <path
+          d="M49.9998 59.5C47.1085 59.5045 44.2945 58.5665 41.9842 56.8281L5.49978 29.2343C5.242 29.0534 5.02333 28.8224 4.85682 28.5551C4.69031 28.2878 4.57938 27.9897 4.53066 27.6785C4.48194 27.3674 4.49642 27.0496 4.57324 26.7442C4.65006 26.4388 4.78765 26.152 4.97778 25.9009C5.16791 25.6499 5.40669 25.4397 5.67985 25.283C5.95302 25.1263 6.25497 25.0262 6.56767 24.9888C6.88036 24.9514 7.1974 24.9773 7.49983 25.0652C7.80227 25.153 8.0839 25.3009 8.32791 25.5L44.8123 53.125C46.3105 54.2434 48.1301 54.8476 49.9998 54.8476C51.8694 54.8476 53.689 54.2434 55.1873 53.125L91.6716 25.5C91.9157 25.3009 92.1973 25.153 92.4997 25.0652C92.8022 24.9773 93.1192 24.9514 93.4319 24.9888C93.7446 25.0262 94.0465 25.1263 94.3197 25.283C94.5929 25.4397 94.8316 25.6499 95.0218 25.9009C95.2119 26.152 95.3495 26.4388 95.4263 26.7442C95.5031 27.0496 95.5176 27.3674 95.4689 27.6785C95.4202 27.9897 95.3092 28.2878 95.1427 28.5551C94.9762 28.8224 94.7576 29.0534 94.4998 29.2343L58.0154 56.8281C55.7051 58.5665 52.8911 59.5045 49.9998 59.5Z"
+          fill="#38B7FF"></path>
+        <path
+          d="M6.51565 76.7813C6.0403 76.782 5.57597 76.6382 5.18427 76.3689C4.79258 76.0995 4.49204 75.7175 4.32253 75.2734C4.15303 74.8292 4.12257 74.3441 4.2352 73.8823C4.34783 73.4205 4.59822 73.0038 4.95315 72.6876L33.7032 47.047C34.1673 46.6326 34.777 46.4195 35.3982 46.4547C36.0194 46.4898 36.6013 46.7703 37.0157 47.2345C37.4301 47.6986 37.6431 48.3083 37.6079 48.9296C37.5728 49.5508 37.2923 50.1326 36.8282 50.547L8.07815 76.1876C7.6512 76.5761 7.09285 76.7882 6.51565 76.7813ZM93.4844 76.7813C92.9072 76.7882 92.3489 76.5761 91.9219 76.1876L63.1719 50.547C62.7078 50.1326 62.4273 49.5508 62.3921 48.9296C62.3569 48.3083 62.57 47.6986 62.9844 47.2345C63.3988 46.7703 63.9806 46.4898 64.6018 46.4547C65.223 46.4195 65.8328 46.6326 66.2969 47.047L95.0313 72.6876C95.3862 73.0038 95.6366 73.4205 95.7492 73.8823C95.8619 74.3441 95.8314 74.8292 95.6619 75.2734C95.4924 75.7175 95.1919 76.0995 94.8002 76.3689C94.4085 76.6382 93.9441 76.782 93.4688 76.7813H93.4844Z"
+          fill="#38B7FF"></path>
+      </svg>
+      <h3 class="text-base capitalize  font-black text-black sm:text-[28px]">email</h3>
+      <p class="text-sm text-center font-regular text-[#A4A4A5] sm:text-xl  "><a target="_blank"
+          href="mailto:ax.abdo.syrain@gmail.com">Email me</a></p>
+    </div>
+  </div>
+</section>
+<div class="relative isolate px-6 py-24 sm:py-32 lg:px-8">
+  <div class="absolute inset-x-0 -top-3 -z-10 transform-gpu overflow-hidden px-36 blur-3xl" aria-hidden="true">
+    <div class="mx-auto aspect-1155/678 w-288.75 bg-linear-to-tr from-[#ff80b5] to-[#9089fc] opacity-30" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+  </div>
+  <div class="mx-auto max-w-4xl text-center">
+    <h2 class="text-base/7 font-semibold text-indigo-600">Pricing</h2>
+    <p class="mt-2 text-5xl font-semibold tracking-tight text-balance text-gray-900 sm:text-6xl">خطط التسعير</p>
+  </div>
+  <p class="mx-auto mt-6 max-w-2xl text-center text-lg font-medium text-pretty text-gray-600 sm:text-xl/8">اسعارنا مرنة ومناسبة لكل فئة .</p>
+  <div class="mx-auto mt-16 grid max-w-lg grid-cols-1 items-center gap-y-6 sm:mt-20 sm:gap-y-0 lg:max-w-4xl lg:grid-cols-2">
+    <div class="rounded-3xl rounded-t-3xl bg-white/60 p-8 ring-1 ring-gray-900/10 sm:mx-8 sm:rounded-b-none sm:p-10 lg:mx-0 lg:rounded-tr-none lg:rounded-bl-3xl">
+      <h3 id="tier-hobby" class="text-base/7 font-semibold text-indigo-600">مبتدئ</h3>
+      <p class="mt-4 flex items-baseline gap-x-2">
+        <span class="text-5xl font-semibold tracking-tight text-gray-900">$29</span>
+        <span class="text-base text-gray-500">/ساعة</span>
+      </p>
+      <p class="mt-6 text-base/7 text-gray-600">هذه الخطة مناسبة للمشاريع الصغيرة.</p>
+      <ul role="list" class="mt-8 space-y-3 text-sm/6 text-gray-600 sm:mt-10">
+        <li class="flex gap-x-3">
+          <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
+            <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
+          </svg>
+         منتج واحد
+        </li>
+        <li class="flex gap-x-3">
+          <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
+            <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
+          </svg>
+          حملة اعلانية محدودة
+        </li>
+        <li class="flex gap-x-3">
+          <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
+            <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
+          </svg>
+          دعم علي مدار اليوم
+        </li>
+        <li class="flex gap-x-3">
+          <svg class="h-6 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
+            <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
+          </svg>
+          مشروع احترافي
+        </li>
+      </ul>
+      <a href="#" aria-describedby="tier-hobby" class="mt-8 block rounded-md px-3.5 py-2.5 text-center text-sm font-semibold text-indigo-600 ring-1 ring-indigo-200 ring-inset hover:ring-indigo-300 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 sm:mt-10">احصل عليها الآن</a>
+    </div>
+    <div class="relative rounded-3xl bg-gray-900 p-8 shadow-2xl ring-1 ring-gray-900/10 sm:p-10 ">
+      <h3 id="tier-enterprise" class="text-base/7 font-semibold text-indigo-400 ">محترف</h3>
+      <p class="mt-4 flex items-baseline gap-x-2">
+        <span class="text-5xl font-semibold tracking-tight text-white">$99</span>
+        <span class="text-base text-gray-400">/ساعة</span>
+      </p>
+      <p class="mt-6 text-base/7 text-gray-300">الخطة المثالية لشركتك العملاقة.</p>
+      <ul role="list" class="mt-8 space-y-3 text-sm/6 text-gray-300 sm:mt-10">
+        <li class="flex gap-x-3">
+          <svg class="h-6 w-5 flex-none text-indigo-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
+            <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
+          </svg>
+           مشاريع غير محدودة
+        </li>
+        <li class="flex gap-x-3">
+          <svg class="h-6 w-5 flex-none text-indigo-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
+            <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
+          </svg>
+       حملة اعلانية ضخمة
+        </li>
+        <li class="flex gap-x-3">
+          <svg class="h-6 w-5 flex-none text-indigo-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
+            <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
+          </svg>
+     مطورون ومصممون من اعلي مستوي
+        </li>
+        <li class="flex gap-x-3">
+          <svg class="h-6 w-5 flex-none text-indigo-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
+            <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
+          </svg>
+          دعم 24 ساعة
+        </li>
+        <li class="flex gap-x-3">
+          <svg class="h-6 w-5 flex-none text-indigo-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
+            <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
+          </svg>
+          ضمان لمدة سنة لكل مشروع
+        </li>
+        <li class="flex gap-x-3">
+          <svg class="h-6 w-5 flex-none text-indigo-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
+            <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
+          </svg>
+          تخصيصات لانهائية
+        </li>
+      </ul>
+      <a href="#" aria-describedby="tier-enterprise" class="mt-8 block rounded-md bg-indigo-500 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-xs hover:bg-indigo-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500 sm:mt-10">احصل عليها الآن</a>
+    </div>
+  </div>
+</div>
+
+<div
+    class="relative w-full bg-white px-6 pt-10 pb-8 mt-8 shadow-xl ring-1 ring-gray-900/5 sm:mx-auto sm:max-w-2xl sm:rounded-lg sm:px-10">
+    <div class="mx-auto px-5">
+        <div class="flex flex-col items-center">
+            <h2 class="mt-5 text-center text-3xl font-bold tracking-tight md:text-5xl">FAQ</h2>
+            <p class="mt-3 text-lg text-neutral-500 md:text-xl">الاسئلة الشائعة
+
+            </p>
+        </div>
+        <div class="mx-auto mt-8 grid max-w-xl divide-y divide-neutral-200">
+            <div class="py-5">
+                <details class="group">
+                    <summary class="flex  flex-row-reverse cursor-pointer list-none items-center justify-between font-medium">
+                        <span> ما هي الخدمات التي نقدمها</span>
+                        <span class="transition group-open:rotate-180">
+                                <svg fill="none" height="24" shape-rendering="geometricPrecision"
+                                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5" viewBox="0 0 24 24" width="24">
+                                    <path d="M6 9l6 6 6-6"></path>
+                                </svg>
+                            </span>
+                    </summary>
+                    <p class="group-open:animate-fadeIn mt-3 text-neutral-600">
+                      هذا القالب مصمم ليكون قاعدة قوية وعصرية لموقعك الشخصي أو
+تم بناؤه باستخدام أحدث التقنيات .(Portfolio (موقع عرض األعمال
+.لضمان أفضل أداء ومرونة
+                    </p>
+                </details>
+            </div>
+            <div class="py-5">
+                 <details class="group">
+                    <summary class="flex  flex-row-reverse cursor-pointer list-none items-center justify-between font-medium">
+                        <span> ما هي الخدمات التي نقدمها</span>
+                        <span class="transition group-open:rotate-180">
+                                <svg fill="none" height="24" shape-rendering="geometricPrecision"
+                                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5" viewBox="0 0 24 24" width="24">
+                                    <path d="M6 9l6 6 6-6"></path>
+                                </svg>
+                            </span>
+                    </summary>
+                    <p class="group-open:animate-fadeIn mt-3 text-neutral-600">
+                      هذا القالب مصمم ليكون قاعدة قوية وعصرية لموقعك الشخصي أو
+تم بناؤه باستخدام أحدث التقنيات .(Portfolio (موقع عرض األعمال
+.لضمان أفضل أداء ومرونة
+                    </p>
+                </details>
+            </div>
+             <div class="py-5">
+                 <details class="group">
+                    <summary class="flex  flex-row-reverse cursor-pointer list-none items-center justify-between font-medium">
+                        <span> ما هي الخدمات التي نقدمها</span>
+                        <span class="transition group-open:rotate-180">
+                                <svg fill="none" height="24" shape-rendering="geometricPrecision"
+                                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5" viewBox="0 0 24 24" width="24">
+                                    <path d="M6 9l6 6 6-6"></path>
+                                </svg>
+                            </span>
+                    </summary>
+                    <p class="group-open:animate-fadeIn mt-3 text-neutral-600">
+                      هذا القالب مصمم ليكون قاعدة قوية وعصرية لموقعك الشخصي أو
+تم بناؤه باستخدام أحدث التقنيات .(Portfolio (موقع عرض األعمال
+.لضمان أفضل أداء ومرونة
+                    </p>
+                </details>
+            </div> <div class="py-5">
+                 <details class="group">
+                    <summary class="flex  flex-row-reverse cursor-pointer list-none items-center justify-between font-medium">
+                        <span> ما هي الخدمات التي نقدمها</span>
+                        <span class="transition group-open:rotate-180">
+                                <svg fill="none" height="24" shape-rendering="geometricPrecision"
+                                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5" viewBox="0 0 24 24" width="24">
+                                    <path d="M6 9l6 6 6-6"></path>
+                                </svg>
+                            </span>
+                    </summary>
+                    <p class="group-open:animate-fadeIn mt-3 text-neutral-600">
+                      هذا القالب مصمم ليكون قاعدة قوية وعصرية لموقعك الشخصي أو
+تم بناؤه باستخدام أحدث التقنيات .(Portfolio (موقع عرض األعمال
+.لضمان أفضل أداء ومرونة
+                    </p>
+                </details>
+            </div> <div class="py-5">
+                 <details class="group">
+                    <summary class="flex  flex-row-reverse cursor-pointer list-none items-center justify-between font-medium">
+                        <span> ما هي الخدمات التي نقدمها</span>
+                        <span class="transition group-open:rotate-180">
+                                <svg fill="none" height="24" shape-rendering="geometricPrecision"
+                                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5" viewBox="0 0 24 24" width="24">
+                                    <path d="M6 9l6 6 6-6"></path>
+                                </svg>
+                            </span>
+                    </summary>
+                    <p class="group-open:animate-fadeIn mt-3 text-neutral-600">
+                      هذا القالب مصمم ليكون قاعدة قوية وعصرية لموقعك الشخصي أو
+تم بناؤه باستخدام أحدث التقنيات .(Portfolio (موقع عرض األعمال
+.لضمان أفضل أداء ومرونة
+                    </p>
+                </details>
+            </div> <div class="py-5">
+                 <details class="group">
+                    <summary class="flex  flex-row-reverse cursor-pointer list-none items-center justify-between font-medium">
+                        <span> ما هي الخدمات التي نقدمها</span>
+                        <span class="transition group-open:rotate-180">
+                                <svg fill="none" height="24" shape-rendering="geometricPrecision"
+                                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5" viewBox="0 0 24 24" width="24">
+                                    <path d="M6 9l6 6 6-6"></path>
+                                </svg>
+                            </span>
+                    </summary>
+                    <p class="group-open:animate-fadeIn mt-3 text-neutral-600">
+                      هذا القالب مصمم ليكون قاعدة قوية وعصرية لموقعك الشخصي أو
+تم بناؤه باستخدام أحدث التقنيات .(Portfolio (موقع عرض األعمال
+.لضمان أفضل أداء ومرونة
+                    </p>
+                </details>
+            </div>
+           
+            
+        </div>
+    </div>
+</div>
+    <style>
+        /* Main Blog Container */
+        .blog-section {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .blog-header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        
+        .blog-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #2d3748;
+            margin-bottom: 1rem;
+        }
+        
+        .blog-subtitle {
+            font-size: 1.2rem;
+            color: #4a5568;
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+        
+        /* Blog Posts Grid */
+        .blog-posts {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 2rem;
+        }
+        
+        /* Individual Blog Post Card */
+        .blog-card {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .blog-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .blog-card-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        
+        .blog-card-content {
+            padding: 1.5rem;
+        }
+        
+        .blog-card-category {
+            display: inline-block;
+            background: #4299e1;
+            color: white;
+            padding: 0.25rem 0.75rem;
+            border-radius: 50px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            margin-bottom: 0.75rem;
+        }
+        
+        .blog-card-title {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: #2d3748;
+            margin-bottom: 0.75rem;
+            line-height: 1.3;
+        }
+        
+        .blog-card-excerpt {
+            color: #4a5568;
+            margin-bottom: 1.25rem;
+            line-height: 1.6;
+        }
+        
+        .blog-card-meta {
+            display: flex;
+            align-items: center;
+            font-size: 0.9rem;
+            color: #718096;
+        }
+        
+        .blog-card-date {
+            margin-right: 1rem;
+        }
+        
+        .blog-card-author {
+            display: flex;
+            align-items: center;
+        }
+        
+        .author-avatar {
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            margin-right: 0.5rem;
+            object-fit: cover;
+        }
+        
+        /* View All Button */
+        .view-all-container {
+            text-align: center;
+            margin-top: 3rem;
+        }
+        
+        .view-all-btn {
+            display: inline-block;
+            background: #4299e1;
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 50px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: background 0.3s ease;
+        }
+        
+        .view-all-btn:hover {
+            background: #3182ce;
+        }
+        
+        /* Responsive Adjustments */
+        @media (max-width: 768px) {
+            .blog-section {
+                padding: 3rem 1.5rem;
+            }
+            
+            .blog-title {
+                font-size: 2rem;
+            }
+            
+            .blog-subtitle {
+                font-size: 1.1rem;
+            }
+            
+            .blog-posts {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+
+    <section class="blog-section">
+        <div class="blog-header">
+            <h2 class="blog-title">المدونة</h2>
+            <p class="blog-subtitle">الإلهام يبدأ من هنا.</p>
+        </div>
+        
+        <div class="blog-posts">
+            <!-- Blog Post 1 - Technology -->
+            <article class="blog-card">
+                <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
+                     alt="Circuit board with technology components" 
+                     class="blog-card-image">
+                <div class="blog-card-content">
+                    <span class="blog-card-category">تكنولوجيا</span>
+                    <h3 class="blog-card-title">مستقبل تطوير المواقغ هل سيقضي عليه الذكاء الاصطناعي</h3>
+                    <p class="blog-card-excerpt">مرحباً بك،
+
+تختلف معايير قبول المنتجات حسب مجال ومميزات كل منتج، من بين هذه المعايير النقاط الأساسية التالية:
+
+1. يدعم اللغة العربية أو متعدد اللغات والعربية هي الأساسية به
+
+2. مناسب للنشر في التصنيفات الحالية في بيكاليكا
+
+3. بجودة عالية ومصمم ومطور باحترافية
+
+4. أن تكون مميزاته مناسبة لسعره وتحقق الحد الأدنى للأسعار في بيكاليكا وهو 10 دولار
+
+.</p>
+                    <div class="blog-card-meta">
+                        <span class="blog-card-date">June 15, 2023</span>
+                        <span class="blog-card-author">عمرو كيلاني
+                            <img src=""
+                                 alt="" 
+                                 class="author-avatar">
+                      
+                        </span>
+                    </div>
+                </div>
+            </article>
+            
+            <!-- Blog Post 2 - Business -->
+            <article class="blog-card">
+                <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
+                     alt="Business team meeting" 
+                     class="blog-card-image">
+                <div class="blog-card-content">
+                    <span class="blog-card-category" style="background: #48bb78;">اعمال حرة</span>
+                    <h3 class="blog-card-title">كيف تدير اعمالك الحرة بنجاح</h3>
+                    <p class="blog-card-excerpt">مرحباً بك،
+
+تختلف معايير قبول المنتجات حسب مجال ومميزات كل منتج، من بين هذه المعايير النقاط الأساسية التالية:
+
+1. يدعم اللغة العربية أو متعدد اللغات والعربية هي الأساسية به
+
+2. مناسب للنشر في التصنيفات الحالية في بيكاليكا
+
+3. بجودة عالية ومصمم ومطور باحترافية
+
+4. أن تكون مميزاته مناسبة لسعره وتحقق الحد الأدنى للأسعار في بيكاليكا وهو 10 دولار
+
+</p>
+                    <div class="blog-card-meta">
+                        <span class="blog-card-date">June 10, 2023</span>
+                        <span class="blog-card-author">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" 
+                                 alt="Michael Chen" 
+                                 class="author-avatar">
+                           علي احمد
+                        </span>
+                    </div>
+                </div>
+            </article>
+            
+            <!-- Blog Post 3 - Design -->
+            <article class="blog-card">
+                <img src="https://images.unsplash.com/photo-1541462608143-67571c6738dd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
+                     alt="Designer working on wireframes" 
+                     class="blog-card-image">
+                <div class="blog-card-content">
+                    <span class="blog-card-category" style="background: #9f7aea;">تصميم</span>
+                    <h3 class="blog-card-title">لدينا تصاميم احترافية صممت خصيصا لمشروعك</h3>
+                    <p class="blog-card-excerpt">مرحباً بك،
+
+تختلف معايير قبول المنتجات حسب مجال ومميزات كل منتج، من بين هذه المعايير النقاط الأساسية التالية:
+
+1. يدعم اللغة العربية أو متعدد اللغات والعربية هي الأساسية به
+
+2. مناسب للنشر في التصنيفات الحالية في بيكاليكا
+
+3. بجودة عالية ومصمم ومطور باحترافية
+
+4. أن تكون مميزاته مناسبة لسعره وتحقق الحد الأدنى للأسعار في بيكاليكا وهو 10 دولار
+
+</p>
+                    <div class="blog-card-meta">
+                        <span class="blog-card-date">June 5, 2023</span>
+                        <span class="blog-card-author">
+                            <img src="" 
+                                 alt="عمرو خالد" 
+                                 class="author-avatar">
+                        براء علي
+                        </span>
+                    </div>
+                </div>
+            </article>
+        </div>
+        
+        <div class="view-all-container">
+            <a href="#" class="view-all-btn">View All Articles</a>
+        </div>
+    </section>
+</body>
+</html>
+<footer class="bg-gray-900 text-gray-200 pt-10 pb-6 mt-10">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex flex-col md:flex-row md:justify-between gap-8">
+      <!-- Logo & About -->
+      <div class="md:w-1/3">
+        <h2 class="text-2xl font-bold mb-3 text-blue-400">شركة تطوير</h2>
+        <p class="text-gray-400">نقدم مشاريع عصرية وتجارب رقمية إبداعية. لنصنع شيئًا رائعًا معًا.</p>
+      </div>
+      <!-- Quick Links -->
+      <div>
+        <h3 class="text-lg font-semibold mb-3">روابط سريعة</h3>
+        <ul class="space-y-2">
+          <li><a href="#" class="hover:text-blue-400 transition">الرئيسية</a></li>
+          <li><a href="#" class="hover:text-blue-400 transition">الخدمات</a></li>
+          <li><a href="#" class="hover:text-blue-400 transition">الأعمال</a></li>
+          <li><a href="#" class="hover:text-blue-400 transition">تواصل معنا</a></li>
+        </ul>
+      </div>
+      <!-- Contact Info -->
+      <div>
+        <h3 class="text-lg font-semibold mb-3">تواصل</h3>
+        <ul class="space-y-2 text-gray-400">
+          <li><span class="font-medium text-gray-200">البريد:</span> amr.kilany2010@gmail.com</li>
+          <li><span class="font-medium text-gray-200">الهاتف:</span>01227338290</li>
+          <li><span class="font-medium text-gray-200">الموقع:</span> مصر</li>
+        </ul>
+      </div>
+      <!-- Social Media -->
+      <div>
+        <h3 class="text-lg font-semibold mb-3">تابعنا</h3>
+        <div class="flex space-x-4">
+          <a href="#" class="hover:text-blue-400 transition" aria-label="Facebook">
+            <!-- Facebook SVG -->
+            <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M22.675 0h-21.35C.595 0 0 .592 0 1.326v21.348C0 23.408.595 24 1.325 24h11.495v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.797.143v3.24l-1.918.001c-1.504 0-1.797.715-1.797 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116C23.406 24 24 23.408 24 22.674V1.326C24 .592 23.406 0 22.675 0"></path></svg>
+          </a>
+          <a href="#" class="hover:text-blue-400 transition" aria-label="Twitter">
+            <!-- Twitter SVG -->
+            <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M24 4.557a9.93 9.93 0 0 1-2.828.775 4.932 4.932 0 0 0 2.165-2.724c-.951.564-2.005.974-3.127 1.195a4.92 4.92 0 0 0-8.384 4.482C7.691 8.095 4.066 6.13 1.64 3.161c-.542.929-.856 2.01-.857 3.17 0 2.188 1.115 4.117 2.823 5.247a4.904 4.904 0 0 1-2.229-.616c-.054 2.281 1.581 4.415 3.949 4.89a4.936 4.936 0 0 1-2.224.084c.627 1.956 2.444 3.377 4.6 3.417A9.867 9.867 0 0 1 0 21.543a13.94 13.94 0 0 0 7.548 2.209c9.058 0 14.009-7.496 14.009-13.986 0-.21 0-.423-.016-.634A9.936 9.936 0 0 0 24 4.557z"></path></svg>
+          </a>
+          <a href="#" class="hover:text-blue-400 transition" aria-label="LinkedIn">
+            <!-- LinkedIn SVG -->
+            <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M22.23 0H1.77C.792 0 0 .771 0 1.723v20.549C0 23.229.792 24 1.77 24h20.459C23.208 24 24 23.229 24 22.271V1.723C24 .771 23.208 0 22.23 0zM7.09 20.452H3.56V9h3.53v11.452zM5.325 7.691a2.062 2.062 0 1 1 0-4.124 2.062 2.062 0 0 1 0 4.124zm15.127 12.761h-3.53v-5.569c0-1.328-.027-3.037-1.85-3.037-1.85 0-2.132 1.445-2.132 2.939v5.667h-3.53V9h3.391v1.561h.049c.472-.891 1.627-1.83 3.348-1.83 3.584 0 4.246 2.358 4.246 5.428v6.293z"></path></svg>
+          </a>
+          <a href="#" class="hover:text-blue-400 transition" aria-label="Instagram">
+            <!-- Instagram SVG -->
+            <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.366.062 2.633.334 3.608 1.308.974.974 1.246 2.241 1.308 3.608.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.062 1.366-.334 2.633-1.308 3.608-.974.974-2.241 1.246-3.608 1.308-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.366-.062-2.633-.334-3.608-1.308-.974-.974-1.246-2.241-1.308-3.608C2.175 15.647 2.163 15.267 2.163 12s.012-3.584.07-4.85c.062-1.366.334-2.633 1.308-3.608.974-.974 2.241-1.246 3.608-1.308C8.416 2.175 8.796 2.163 12 2.163zm0-2.163C8.741 0 8.332.013 7.052.072 5.771.131 4.659.414 3.678 1.395 2.697 2.376 2.414 3.488 2.355 4.769.013 8.332 0 8.741 0 12c0 3.259.013 3.668.072 4.948.059 1.281.342 2.393 1.323 3.374.981.981 2.093 1.264 3.374 1.323C8.332 23.987 8.741 24 12 24c3.259 0 3.668-.013 4.948-.072 1.281-.059 2.393-.342 3.374-1.323.981-.981 1.264-2.093 1.323-3.374.059-1.28.072-1.689.072-4.948 0-3.259-.013-3.668-.072-4.948-.059-1.281-.342-2.393-1.323-3.374-.981-.981-2.093-1.264-3.374-1.323C15.668.013 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zm0 10.162a3.999 3.999 0 1 1 0-7.998 3.999 3.999 0 0 1 0 7.998zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"></path></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+   
+      <div class="border-t border-gray-700 mt-8 pt-4 text-center text-gray-500 text-sm">
+    developed by eng amr k  </div>
+  </div>
+  
+</footer>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script>
+var menu= document.getElementById('menu');
+  var open= document.getElementById('open');
+ var close =  document.getElementById('close');
+   close.onclick=function(){
+   menu.style.display="none";
+    
+   }
+    open.onclick=function(){
+        menu.style.display='block';
+     }
+     menu.style.display='none';
+     window.onscroll=function(){
+     menu.style.display='none';
+     }
+
+</script>
+<script src="darkmode.js"></script>
+<script>
+  // script.js
+
+document.addEventListener('DOMContentLoaded', () => {
+    const projectImages = document.querySelectorAll('.project-image');
+    const projectContents = document.querySelectorAll('.project-content');
+
+    // دالة لمراقبة عناصر معينة لعمل أنيميشن عند ظهورها في الـ viewport
+    const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                // لو العنصر (صورة أو محتوى) ظهر في الـ viewport
+                // إزالة كلاسات الإخفاء والتحريك
+                entry.target.classList.remove('opacity-0', 'translate-x-16', 'translate-x-[-16px]');
+                // إضافة كلاسات الظهور والرجوع لمكانه
+                entry.target.classList.add('opacity-100', 'translate-x-0');
+                observer.unobserve(entry.target); // إيقاف المراقبة بعد ظهور العنصر
+            }
+        });
+    }, {
+        threshold: 0.2 // معناها إن 20% من العنصر لازم يظهر عشان الأنيميشن يشتغل
+    });
+
+    // مراقبة كل صور المشاريع
+    projectImages.forEach(image => {
+        observer.observe(image);
+    });
+
+    // مراقبة كل محتويات المشاريع
+    projectContents.forEach(content => {
+        observer.observe(content);
+    });
+});
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</html>
